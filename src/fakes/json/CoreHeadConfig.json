@@ -1,0 +1,134 @@
+{
+	"mainNav" : [
+		{
+			"icon" : "site-test",
+			"title" : "return to login",
+			"label" : "conexi",
+			"url" : "#urlToLogin"
+		},
+		{
+			"icon" : "state-us",
+			"title" : "return to national",
+			"url" : "#urlToNational"
+		},
+		{
+			"icon" : "state-ia",
+			"title" : "return to Iowa",
+			"url" : "#urltoIowa"
+		},
+		{
+			"label" : "Iowa Organization or Agency Name, Inc",
+			"url" : "#urltoAgency"
+		},
+		{
+			"label" : "HIV and STD Testing",
+			"url" : "#urlAppHome"
+		}
+	],
+	"subNav" : [
+		{
+			"label" : "ACTIVITIES",
+			"url" : "#activities",
+			"active" : true,
+			"items" : [
+				{
+					"label" : "HIV & STD Testing",
+					"url" : "#hivtesting" 
+				},
+				{
+					"label" : "Partner Services",
+					"url" : "#partnerservices" 
+				},
+				{
+					"label" : "Client-Level RRA",
+					"url" : "#clientlevelrra" 
+				},
+				{
+					"label" : "Condom Distribution",
+					"url" : "#condomdistribution" 
+				},
+				{
+					"label" : "Referrals",
+					"url" : "#referrals" 
+				}
+			]
+ 		},
+		{
+			"label" : "MANAGEMENT",
+			"url" : "#management",
+			"active" : false,
+			"items" : [
+				{
+					"label" : "Users & Permissions",
+					"url" : "#userpermissions" 
+				},
+				{
+					"label" : "Sites",
+					"url" : "#sites" 
+				},
+				{
+					"label" : "Funding",
+					"url" : "#funding" 
+				},
+				{
+					"label" : "Annual Targets",
+					"url" : "#annualtargets" 
+				},
+				{
+					"label" : "APR",
+					"url" : "#apr" 
+				}
+			]
+		},
+		{
+			"label" : "REPORTS",
+			"url" : "#reports",
+			"active" : false,
+			"items" : [
+				{
+					"label" : "Reflexx",
+					"url" : "#reflexx" 
+				},
+				{
+					"label" : "Standard Reports",
+					"url" : "#standardreports" 
+				},
+				{
+					"label" : "Data Quality",
+					"url" : "#dataquality" 
+				},
+				{
+					"label" : "Custom Reports",
+					"url" : "#customreports" 
+				}
+			]			
+		}
+	],
+	"appNav" : {
+		"main" : [
+			{
+				"type" : "app",
+				"url" : "#urlAppHome"
+			},
+			{
+				"label" : "App Link 1",
+				"url" : "#applink1"
+			},
+			{
+				"label" : "App Link 2",
+				"url" : "#applink2"
+			}
+		],
+		"secondary" : [
+			{
+				"label" : "App Link 4",
+				"url" : "#applink4"
+			},
+			{
+				"label" : "App Link 5",
+				"url" : "#applink5"
+			}
+		]
+	}
+
+}
